@@ -196,8 +196,8 @@ class PokerViewController: UIViewController {
        
             while bank < player {
                 if player <= 21, z < 4, bank < 21, k < 51 {
-                    var bankPoint = cardArray[k+1].Number
-                    if cardArray[k+1].Number > 10 {
+                    var bankPoint = cardArray[k].Number
+                    if cardArray[k].Number > 10 {
                         bankPoint = 10
                     }else if cardArray[k].Number == 1 {
                         bankPoint = 11
@@ -205,7 +205,7 @@ class PokerViewController: UIViewController {
                     }
                     
                     pokers[y].alpha = 1
-                    pokers[y].image = UIImage(named: cardArray[k+1].PokerName)
+                    pokers[y].image = UIImage(named: cardArray[k].PokerName)
                     y += 1
                     k += 1
                     bank += bankPoint
