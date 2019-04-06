@@ -166,6 +166,7 @@ class PokerViewController: UIViewController {
             k = 0
             pokerBack.alpha = 0
             resultLabel.text = "No cards!"
+            cardArray.shuffle()
         }
     }
     override func viewDidLoad() {
@@ -218,11 +219,8 @@ class PokerViewController: UIViewController {
         for i in 0...9 {
             pokers[i].alpha = 0
         }
-        
         dealButton.isHidden = false
         passButton.isHidden = false
-        
-        cardArray.shuffle()
         resultLabel.textColor = UIColor.black
         resultLabel.text = "Black Jack"
         z = 0
@@ -231,7 +229,7 @@ class PokerViewController: UIViewController {
         bank = 0
         playerA = 0
         bankA = 0
-        print( "剩餘張數" + String(k) )
+        print( "已發張數" + String(k) )
         pokerBack.alpha = 1
     }
     
