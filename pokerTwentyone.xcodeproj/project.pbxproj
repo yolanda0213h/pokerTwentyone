@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AA97852B224F3F5B000F8A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97852A224F3F5B000F8A48 /* AppDelegate.swift */; };
-		AA97852D224F3F5B000F8A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97852C224F3F5B000F8A48 /* ViewController.swift */; };
 		AA978530224F3F5B000F8A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA97852E224F3F5B000F8A48 /* Main.storyboard */; };
 		AA978532224F3F5D000F8A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA978531224F3F5D000F8A48 /* Assets.xcassets */; };
 		AA978535224F3F5D000F8A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA978533224F3F5D000F8A48 /* LaunchScreen.storyboard */; };
+		AA97853D224F4D48000F8A48 /* PokerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97853C224F4D48000F8A48 /* PokerViewController.swift */; };
+		AA97853F224F5317000F8A48 /* suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA97853E224F5317000F8A48 /* suit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA978527224F3F5B000F8A48 /* pokerTwentyone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokerTwentyone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA97852A224F3F5B000F8A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA97852C224F3F5B000F8A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA97852F224F3F5B000F8A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA978531224F3F5D000F8A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA978534224F3F5D000F8A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA978536224F3F5D000F8A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA97853C224F4D48000F8A48 /* PokerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerViewController.swift; sourceTree = "<group>"; };
+		AA97853E224F5317000F8A48 /* suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				AA97852A224F3F5B000F8A48 /* AppDelegate.swift */,
-				AA97852C224F3F5B000F8A48 /* ViewController.swift */,
 				AA97852E224F3F5B000F8A48 /* Main.storyboard */,
+				AA97853C224F4D48000F8A48 /* PokerViewController.swift */,
+				AA97853E224F5317000F8A48 /* suit.swift */,
 				AA978531224F3F5D000F8A48 /* Assets.xcassets */,
 				AA978533224F3F5D000F8A48 /* LaunchScreen.storyboard */,
 				AA978536224F3F5D000F8A48 /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA97852D224F3F5B000F8A48 /* ViewController.swift in Sources */,
+				AA97853F224F5317000F8A48 /* suit.swift in Sources */,
+				AA97853D224F4D48000F8A48 /* PokerViewController.swift in Sources */,
 				AA97852B224F3F5B000F8A48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
